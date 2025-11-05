@@ -3,21 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-/* import profilePic from './assets/profile.jpg'; */
-
-/*
-      <img 
-        src={profilePic} 
-        alt="Yuxin Wu" 
-        style={{ 
-          width: "150px", 
-          height: "150px", 
-          borderRadius: "50%",  
-          objectFit: "cover",    
-          marginBottom: "1rem" 
-        }} 
-      />
-*/
+import profilePic from './assets/profile.jpg';
 
 function App() {
   return (
@@ -29,6 +15,18 @@ function App() {
       color: "#222",
       padding: "20px"
     }}>
+
+      <img 
+        src={profilePic} 
+        alt="Yuxin Wu" 
+        style={{ 
+          width: "150px", 
+          height: "150px", 
+          borderRadius: "50%",  
+          objectFit: "cover",    
+          marginBottom: "1rem" 
+        }} 
+      />
 
       <h1 style={{ textAlign: "left" }}>Yuxin Wu</h1>
       <p>
@@ -112,15 +110,22 @@ function App() {
       <h2>Work Experience</h2>
 
       <h4>Project Architect <span>– Architecture Office Eero Korhonen Oy, Helsinki (1.2023 – now)</span> </h4>
-      <p>• Lead architectural design from concept to implementation.</p>
-      <p>• Collaborated with multidisciplinary engineering teams</p>
-      <p>• Coordinated between contractors and clients</p>
+      <p>• ustomer service and adapting design approach according to user's need.</p>
+      <p>• Managing and implementing dynamic design changes based on construction site and contractor feedback</p>
+      <p>• Cooperation between design departments such as HVAC-, interior designers and building control officers.</p>
       
       <h4>Architect <span>– Architecture Office Pet Michael Oy, Helsinki (1.2022 – 12.2022)</span> </h4>
+      <p>• Housing design in permit phase and implementation phase.</p>
 
       <h4>Assistant Architect <span>– H-K Architects, Helsinki (1.2023 – now)</span> </h4>
+      <p>• Project development in building information model using Archicad.</p>
+      <p>• Use of real-time rendering and simulation platforms to support design workflows.</p>
+      <p>• Design prototyping using computational aided design softwares.</p>
 
       <h4>Assistant Architect <span>– Powerhouse Company, Helsinki (1.2023 – now)</span> </h4>
+      <p>• Computational Graphic Imaginary using various renders (V-ray, twinmiton)..</p>
+      <p>• Conceptual and schematic building design and urban development.</p>
+      <p>• Assistance in business develepment such as making the Chinese version Portfolio.</p>
 
       <h2>Languages</h2>
       <h4>Chinese <span> Native </span> </h4>
