@@ -13,7 +13,8 @@ function MainPage() {
   return (
     <div style={{
       backgroundColor: 'white',
-      minHeight: '100vh',
+      color: '#222',             // force dark text
+      minHeight: '100vh',         // make it cover full screen
       maxWidth: "800px",
       margin: "40px auto",
       fontFamily: "Arial, sans-serif",
