@@ -12,6 +12,7 @@ import Cv from './Cv';
 function MainPage() {
   return (
     <div style={{
+      backgroundColor: 'white',
       maxWidth: "800px",
       margin: "40px auto",
       fontFamily: "Arial, sans-serif",
