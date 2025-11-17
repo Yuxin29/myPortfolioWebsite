@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
@@ -13,16 +13,15 @@ function MainPage() {
   return (
     <div style={{
       backgroundColor: 'white',
-      color: '#222',             // force dark text
-      minHeight: '100vh',         // make it cover full screen
+      minHeight: '100vh',
       maxWidth: "800px",
       margin: "40px auto",
       fontFamily: "Arial, sans-serif",
       lineHeight: "1.6",
+      color: "#222",
       padding: "20px"
     }}>
       <div style={{
-        backgroundColor: 'white',
         display: "flex",
         justifyContent: "space-between",
         marginBottom: "10px"
@@ -57,6 +56,11 @@ function MainPage() {
 }
 
 function App() {
+  useEffect(() => {
+    document.documentElement.style.backgroundColor = 'white';
+    document.body.style.backgroundColor = 'white';
+  }, []);
+  
   return (
     <BrowserRouter>
       <Routes>
