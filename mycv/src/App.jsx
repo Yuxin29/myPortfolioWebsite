@@ -18,10 +18,10 @@ function MainPage() {
       margin: "40px auto",
       fontFamily: "Arial, sans-serif",
       lineHeight: "1.6",
-      color: "#222",
       padding: "20px"
     }}>
       <div style={{
+        backgroundColor: 'white',
         display: "flex",
         justifyContent: "space-between",
         marginBottom: "10px"
