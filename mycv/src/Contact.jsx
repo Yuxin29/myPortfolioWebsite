@@ -7,7 +7,8 @@ function Contact() {
   const [status, setStatus] = useState(null);
   const [error, setError] = useState("");
 
-  const BACKEND = "http://localhost:5000"; // or your deployed backend later
+  //const BACKEND = "http://localhost:5000"; // or your deployed backend later
+  const BACKEND = "https://www.yuxinwu.eu/#contact";
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });

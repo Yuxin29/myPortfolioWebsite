@@ -12,7 +12,6 @@ router.post('/', async (req, res, next) => {
     if (!name || !email || !message) {
       return res.status(400).json({ error: 'name, email and message are required' });
     }
-    // you can add regex email validation here if desired
 
     const newContact = new Contact({ name, email, message });
     await newContact.save();
