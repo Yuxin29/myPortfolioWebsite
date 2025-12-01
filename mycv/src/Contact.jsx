@@ -7,7 +7,6 @@ function Contact() {
   const [status, setStatus] = useState(null);
   const [error, setError] = useState("");
 
-  //const BACKEND = "http://localhost:5000"; // or your deployed backend later
   const BACKEND = "https://www.yuxinwu.eu/#contact";
 
   const handleChange = (e) => {
@@ -46,29 +45,11 @@ function Contact() {
 
   return (
     <div id="contact" style={{marginTop: "2rem" }}>
-        <hr style={{
-            width: "100%",
-            border: "none",
-            height: "1px",
-            backgroundColor: "#ccc",
-            margin: "1.5rem 0"
-        }} />
+
 
         <h2 className="title_text"> Contact me
         </h2>
-       
-       <img
-        src={profilePic}
-        alt="Yuxin Wu"
-        style={{
-          width: "150px",
-          height: "150px",
-          borderRadius: "50%",
-          objectFit: "cover",
-          marginBottom: "1rem",
-        }}
-      />
-
+  
       <form className="contact-form" onSubmit={handleSubmit} style={{ textAlign: "left" }} >
         <label>
           Name
@@ -94,6 +75,18 @@ function Contact() {
           {status === "pending" ? "Sending…" : "Send"}
         </button>
       </form>
+
+      {/* <img
+        src={profilePic}
+        alt="Yuxin Wu"
+        style={{
+          width: "150px",
+          height: "150px",
+          borderRadius: "50%",
+          objectFit: "cover",
+          marginBottom: "1rem",
+        }}
+      /> */}
 
       {status === null}
       {status === "success" && (

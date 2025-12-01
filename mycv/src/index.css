@@ -68,9 +68,12 @@ button:focus-visible {
 }
 
 .title_text {
-  background: #df7f7f;      /* light background */
-  text-align: left;
-  padding: 0.5rem;          /* spacing inside */
-  border-radius: 5px;       /* soft corners */
-  margin-top: 0.5rem;          /* spacing from image/video */
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding-bottom: 0.3rem;
+  border-bottom: 3px solid #4a90e2;   /* soft blue accent */
+  width: fit-content;
+  margin-top: 5rem;    
+  margin-bottom: 1rem;
 }
+
