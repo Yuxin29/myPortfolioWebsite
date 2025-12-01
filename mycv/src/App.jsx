@@ -1,4 +1,4 @@
-import {useEffect } from 'react'
+import { useEffect } from 'react'
 import {BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 
 import './App.css'
@@ -19,7 +19,7 @@ function MainPage() {
         </div>
         {/* Right item: Gallery page */}
         <Link to="/gallery" className='top_right_nav'>
-          My hobby
+          Gallery
         </Link>
       </div>
       {/* Main page content */}

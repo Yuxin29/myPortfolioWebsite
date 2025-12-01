@@ -54,8 +54,7 @@ function Contact() {
             margin: "1.5rem 0"
         }} />
 
-        <h2 style={{ textAlign: "left" }}>
-            Feel free to leave a message to me
+        <h2 className="title_text"> Contact me
         </h2>
        
        <img

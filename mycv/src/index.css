@@ -66,3 +66,11 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.title_text {
+  background: #df7f7f;      /* light background */
+  text-align: left;
+  padding: 0.5rem;          /* spacing inside */
+  border-radius: 5px;       /* soft corners */
+  margin-top: 0.5rem;          /* spacing from image/video */
+}

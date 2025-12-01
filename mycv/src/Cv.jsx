@@ -9,7 +9,7 @@ function Cv() {
                 Architect (5+ years) → Junior Software Developer
             </h2>
             <p>
-                📧 yuxin.1.wu@gmail.com | 📞 +358 466803054 | 📍 Helsinki, Finland
+                yuxin.1.wu@gmail.com | +358 466803054 | Helsinki, Finland
             </p>
             <p>
                 <a href="in/yuxin-w-ab719b198" target="_blank" rel="noreferrer">LinkedIn</a> |{" "}
@@ -34,8 +34,8 @@ function Cv() {
             </p>
 
             <h2 style={{ textAlign: "left" }}>Tech Stacks</h2>
-            <h4><b>Programming Languages</b> <span>C, C++, Python, Bash, Makefile</span> </h4>
-            <h4><b>Tools</b> <span>Linux, Virtual Machines, Debian, Git</span> </h4>
+            <h4><b>Programming Languages</b> <span>C, C++, Python, Javascript, React</span> </h4>
+            <h4><b>Tools</b> <span>Linux, Virtual Machines, Debian, Git, Bash</span> </h4>
             <h4><b>Offices</b> <span>Microsoft, Slack, Discord</span> </h4>
             <h4><b>Design</b> <span>AutoCAD, 3D modeling, rendering, visualization, Adobe Suite, Laser-cutting, 3D printing</span> </h4>
             <h4><b>Communications</b> <span>Chinese(native), English(Excellent), Finnish(conversational) </span> </h4>
