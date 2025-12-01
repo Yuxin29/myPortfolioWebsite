@@ -12,8 +12,7 @@ import CoinCollectorVideo from "./assets/CoinCollector.webm";
 function Project() {
     return (
         <div id="project">
-            <h2>Programming Projects (Hive Helsinki)</h2>
-
+            <h2 style={{ textAlign: "left" }}>Programming Projects (Hive Helsinki)</h2>
             <div className="project-card">
                 <img
                     className="project-media"

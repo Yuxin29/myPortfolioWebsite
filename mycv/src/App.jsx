@@ -1,6 +1,5 @@
-import { useState, useEffect } from 'react'
-
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import {useEffect } from 'react'
+import {BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 
 import './App.css'
 
@@ -11,42 +10,18 @@ import Cv from './Cv';
 
 function MainPage() {
   return (
-    <div style={{
-      backgroundColor: 'white',
-      minHeight: '100vh',
-      maxWidth: "800px",
-      margin: "40px auto",
-      fontFamily: "Arial, sans-serif",
-      lineHeight: "1.6",
-      color: "#222",
-      padding: "20px"
-    }}>
-      <div style={{
-        display: "flex",
-        justifyContent: "space-between",
-        marginBottom: "10px"
-      }}>
-        {/* Left group */}
-        <div style={{ display: "flex", gap: "30px" }}>
-          <a href="#project" className="left-bottom-link">Projects</a>
-          <a href="#contact" className="left-bottom-link">Contact</a>
+    <div className="main_container">
+      <div className="top_nav">
+        {/* Left groups projects and Contect */}
+        <div className='top_left_nav'>
+          <a href="#project" className="top_left_nav">Projects</a>
+          <a href="#contact" className="top_left_nav">Contact</a>
         </div>
-
         {/* Right item: Gallery page */}
-        <Link
-          to="/gallery"
-          style={{
-            backgroundColor: "#001c2cff",
-            color: "white",
-            padding: "8px 14px",
-            fontWeight: "bold",
-            textDecoration: "none"
-          }}
-        >
+        <Link to="/gallery" className='top_right_nav'>
           My hobby
         </Link>
       </div>
-
       {/* Main page content */}
       <Cv/>
       <Project/>
@@ -60,10 +35,10 @@ function App() {
     document.documentElement.style.backgroundColor = 'white'; // html
     document.body.style.backgroundColor = 'white';            // body
     const root = document.getElementById('root');
-    if (root) root.style.backgroundColor = 'white';           // React root div
+    if (root)
+      root.style.backgroundColor = 'white';           // React root div
   }, []);
 
-  
   return (
     <BrowserRouter>
       <Routes>

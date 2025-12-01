@@ -5,7 +5,7 @@ function Cv() {
     return (
         <div id="Cv">
             <h1 style={{ textAlign: "left" }}>Yuxin Wu</h1>
-            <h2>
+            <h2 style={{ textAlign: "left" }}>
                 Architect (5+ years) → Junior Software Developer
             </h2>
             <p>
@@ -18,7 +18,7 @@ function Cv() {
                 
             </p>
 
-            <h2>About</h2>
+            <h2 style={{ textAlign: "left" }}>About</h2>
             <p>
                 I’m an architect transitioning into software development. Through my studies at Hive Helsinki,
                 I’ve built a solid foundation in C, C++, and Python, focusing on algorithms, data structures,
@@ -28,12 +28,12 @@ function Cv() {
             <p>-Collaborate across multidisciplinary teams</p>
             <p>-Deliver precise, reliable, and efficient technical solutions under tight deadlines</p>
             
-            <h2>About Hive</h2>
+            <h2 style={{ textAlign: "left" }}>About Hive</h2>
             <p>
                 Hive is an immersive tech school where students develop problem-solving, collaboration, and self-learning skills through hands-on projects. Its rigorous, project-based curriculum equips students with strong programming fundamentals and real-world technical expertise. Students learn to explore, experiment, and take ownership of their work while tackling complex challenges.
             </p>
 
-            <h2>Tech Stacks</h2>
+            <h2 style={{ textAlign: "left" }}>Tech Stacks</h2>
             <h4><b>Programming Languages</b> <span>C, C++, Python, Bash, Makefile</span> </h4>
             <h4><b>Tools</b> <span>Linux, Virtual Machines, Debian, Git</span> </h4>
             <h4><b>Offices</b> <span>Microsoft, Slack, Discord</span> </h4>
@@ -46,7 +46,7 @@ function Cv() {
             <h4><b>Southeast University, China</b> <span> Bachelor of Science in Architecture  2014–2019</span></h4>
             <h4><b>Iowa State University, USA</b> <span> Exchange study 2018</span></h4>
 
-            <h2>Work Experience</h2>
+            <h2 style={{ textAlign: "left" }}>Work Experience</h2>
             <h4>Project Architect <span>– Architecture Office Eero Korhonen Oy, Helsinki (1.2023 – now)</span> </h4>
             <h4>Architect <span>– Architecture Office Pet Michael Oy, Helsinki (1.2022 – 12.2022)</span> </h4>
             <h4>Assistant Architect <span>– H-K Architects, Helsinki (1.2023 – now)</span> </h4>
