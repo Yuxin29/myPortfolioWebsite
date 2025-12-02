@@ -27,9 +27,13 @@ function Cv() {
 
             <p>
             Shifting to digital building, I undertook the rigorous curriculum at Hive Helsinki, building a deep technical foundation in C, C++, and Python, with a focus on algorithms and low-level problem-solving. </p>
-            I am now diving into web development with Javascript and React.
+            
             <p>
-            I now bring this unique blend of coordination experience, system-level thinking and user-oriented attitude to contribute to software engineering. 
+                I am now diving into web development with Javascript and React.
+            </p>
+
+            <p>
+            I now excited to this unique blend of coordination experience, system-level thinking and user-oriented attitude to contribute to software engineering. 
             </p>
         
             

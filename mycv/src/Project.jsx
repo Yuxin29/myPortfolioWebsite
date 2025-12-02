@@ -23,7 +23,7 @@ const projects = [
     },
     {
         title: "MiniRayTracer (C)",
-        inshort: "Created a ray tracer to explore 3D rendering algorithms",
+        inshort: "RayTracer 3D Rendering",
         description: "MiniRayTracer is a lightweight ray tracer built using C and the MLX42 graphics library. Rendered simple 3D scenes simulating light rays. Implemented ray-object intersection, reflection, and simple lighting effects. Improved problem-solving skills in 3D rendering.",
         media: miniRTVideo,
         type: "video",
@@ -39,7 +39,7 @@ const projects = [
     },
     {
         title: "Radix Sort (C)",
-        inshort: "Sorting algorithm using two stacks and minimal operations",
+        inshort: "Sorting using two stacks and minimal ops",
         description: "Push_Swap is an algorithmic C project sorting integers using two stacks and limited operations. Implemented robust parsing, small-input optimized routines, and scalable radix strategy. Strengthened skills in algorithm design, complexity analysis, and low-level C programming.",
         media: pushswapVideo,
         type: "video",
@@ -47,7 +47,7 @@ const projects = [
     },
     {
         title: "MiniLibft (C)",
-        inshort: "self-implemented C standard library functions",
+        inshort: "self-implemented C standard library",
         description: "MiniLibft reimplemented several core C library functions to understand their inner workings (malloc, free, strcpy, strlen, etc.). Gained deep understanding of memory management and writing efficient, error-free low-level code.",
         media: libftImage,
         type: "image",
@@ -55,7 +55,7 @@ const projects = [
     },
     {
         title: "CoinCollector (Python)",
-        inshort: "a game where a robot collects coins, escapes devils",
+        inshort: "Collision, Map, and Sprite Engine",
         description: "Built with Python and Pygame. Implemented movement logic, map system, collision detection, and sprite rendering, including coin collection, enemy interactions, and win/lose conditions. Strengthened understanding of event handling, game loops, and interactive gameplay design.",
         media: CoinCollectorVideo,
         type: "video",
@@ -86,7 +86,7 @@ function Project() {
             {projects.map((proj, idx) => 
                 {
                 const isExpanded = expandedIndex === idx;
-                const needsToggle = proj.description.length > 100;
+                const needsToggle = proj.description.length > 45;
                 return (
                     <div className="project-card" key={idx}>
                         {proj.type === "image" ? 

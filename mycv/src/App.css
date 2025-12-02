@@ -1,29 +1,41 @@
-/*
-  This ensures the base page background is always white,
-  regardless of the user's OS Dark Mode settings,
-  because CSS styles have precedence over default browser settings.
-*/
+/* ======================================
+ * 1. CSS Variables for Normal Mode (Default)
+ * ====================================== */
+:root {
+  /* Colors based on your original file */
+  --bg-color: white;           /* Original: white */
+  --text-color: #222;          /* Original: #222 */
+  --nav-bg-link-color: #747474; /* Original: #747474 */
+  --nav-text-color: white;     /* Original: white */
+  --shadow-color: rgba(0,0,0,0.15);
+  --border-radius: 6px;
+}
+
+/* ======================================
+ * 3. Base & Structure (Use Variables)
+ * ====================================== */
 
 html, body {
-  background-color: white !important; /* Use !important only if necessary to override a strong user-agent/browser default */
-  min-height: 100vh; /* Ensure the background covers the whole viewport */
+  /* Use variables here to ensure background changes */
+  background-color: var(--bg-color) !important; 
+  min-height: 100vh; 
+  transition: background-color 0.3s ease; /* Smooth transition */
 }
 
 #root {
-  /* This is the container where your React app is rendered */
-  background-color: white;
+  background-color: var(--bg-color);
 }
 
 .main_container {
-  background-color: white;
+  background-color: var(--bg-color); /* Use variable */
   min-height: 100vh;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 40px auto;
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  color: #222;
+  color: var(--text-color); /* Use variable */
   padding: 20px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .top_nav {
@@ -39,26 +51,41 @@ html, body {
   gap: 10px;
 }
 
-.top_left_nav a {
-  background-color: #747474;
-  color: white;
+.top_left_nav a, .top_right_nav {
+  /* Apply variables to links/buttons */
+  background-color: var(--nav-bg-link-color); 
+  color: var(--nav-text-color);
   padding: 8px 16px;
-  border-radius: 6px;
+  border-radius: var(--border-radius);
   text-decoration: none;
   font-weight: bold;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 8px var(--shadow-color);
   transition: all 0.3s ease;
   display: inline-block;
 }
 
-.top_right_nav{
-  background-color: #747474;
-  color: white;
-  padding: 10px 18px;
-  font-weight: bold;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 6px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-  transition: all 0.3s ease;
+/* ======================================
+ * 4. Enhanced Accessibility Mode Overrides
+ * ====================================== */
+
+/* Targets the root element when data-access="on" */
+[data-access="on"] .main_container {
+  /* Increase line height for reading comfort */
+  line-height: 1.8; 
+}
+
+[data-access="on"] .main_container,
+[data-access="on"] .main_container * {
+    /* Increase font size for better readability */
+    font-size: 1.1em !important; 
+}
+
+/* Highlight interactive elements (links/buttons) */
+[data-access="on"] .top_left_nav a,
+[data-access="on"] .top_right_nav,
+[data-access="on"] .theme-toggle-button,
+[data-access="on"] .accessibility-toggle-button {
+  /* Add a strong visual border for focus/interactivity */
+  border: 2px solid var(--nav-text-color) !important;
+  box-shadow: 0 0 10px var(--nav-text-color); /* Stronger glow/shadow */
 }
