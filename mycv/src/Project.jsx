@@ -1,4 +1,6 @@
 import React from "react";
+import { useState } from 'react';
+
 import './Project.css'
 
 import libftImage from "./assets/libft.png";
@@ -6,7 +8,7 @@ import pushswapVideo from "./assets/pushswap.webm";
 import minishellImage from "./assets/minishell.png";
 import miniRTVideo from "./assets/miniRT.webm";
 import webserverImage from "./assets/webserver.png";
-import solongVideo from "./assets/solong.webm";
+//import solongVideo from "./assets/solong.webm";
 import CoinCollectorVideo from "./assets/CoinCollector.webm";
 
 // an array of projects
@@ -61,39 +63,86 @@ const projects = [
     }
 ];
 
+const getShortDescription = (description, maxLength = 200) => {
+    if (description.length <= maxLength) {
+        return description;
+    }
+    // Return truncated text with '...'
+    return description.substring(0, maxLength).trim() + '...'; 
+}
+
 // map() us an array method that loops though all elements
 // ternary condition ? valueIfTrue : valueIfFalse
+// === strict equality operator
+// == loose equality operator
 function Project() {
+    const [expandedIndex, setExpandedIndex] = useState(null);
+    const handleToggleDescription = (index) => {
+        setExpandedIndex(expandedIndex === index ? null : index)
+    }
     return (
          <div id="project">
             <h2 className="title_text"> Projects</h2>
-            {projects.map((proj, idx) => (
-                <div className="project-card" key={idx}>
-                    {proj.type === "image" ? 
-                    (<img className="project-media" src={proj.media} alt={`${proj.title} preview`} />) 
-                    : 
-                    (
-                        <video
-                            className="project-video"
-                            src={proj.media}
-                            controls
-                            loop
-                            muted
-                            playsInline
-                            preload="metadata"
-                        />
-                    )}
-                    <div className="project-text">
-                        <h4>
-                            <a href={proj.link} target="_blank" rel="noreferrer" style={{ textDecoration: "none", color: "inherit" }}>
-                                <b>{proj.title}</b>
-                            </a>
-                            <p>{proj.inshort}</p>
-                        </h4>
-                        <p>{proj.description}</p>
+            {projects.map((proj, idx) => 
+                {
+                const isExpanded = expandedIndex === idx;
+                const needsToggle = proj.description.length > 100;
+                return (
+                    <div className="project-card" key={idx}>
+                        {proj.type === "image" ? 
+                        (<img className="project-media" src={proj.media} alt={`${proj.title} preview`} />) 
+                        : 
+                        (
+                            <video
+                                className="project-video"
+                                src={proj.media}
+                                controls
+                                loop
+                                muted
+                                playsInline
+                                preload="metadata"
+                            />
+                        )}
+                        <div className="project-text">
+                            <h4>
+                                <a href={proj.link} target="_blank" rel="noreferrer" style={{ textDecoration: "none", color: "inherit" }}>
+                                    <b>{proj.title}</b>
+                                </a>
+                                <p>{proj.inshort}</p>
+                            </h4>
+                            <p>
+                                {isExpanded || !needsToggle 
+                                    ? proj.description // Show full text if expanded or short enough
+                                    : getShortDescription(proj.description) // Show truncated text
+                                }
+                            </p>
+                            
+                            {/* Toggle Button (Only show if description is long) */}
+                            {needsToggle && (
+                                <button
+                                    // Use the setter function to trigger the state change on click
+                                    onClick={() => handleToggleDescription(idx)}
+                                    // Minimal inline styles to make the button look like a link
+                                    style={{ 
+                                        border: 'none', 
+                                        background: 'none', 
+                                        color: '#aaaaaa', // A common link blue color
+                                        cursor: 'pointer',
+                                        padding: '0', 
+                                        // textDecoration: 'underline',
+                                        textAlign: 'left',
+                                        display: 'block' // Ensure it takes its own line
+                                    }}
+                                >
+                                    {isExpanded ? 'Show Less' : 'Show More'}
+                                </button>
+                            )}
+                            {/* <p>{proj.description}</p> */}
+                        </div>
                     </div>
-                </div>
-            ))}
+                )
+            }
+            )}
         </div>
     );
 }

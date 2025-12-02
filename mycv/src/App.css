@@ -1,3 +1,19 @@
+/*
+  This ensures the base page background is always white,
+  regardless of the user's OS Dark Mode settings,
+  because CSS styles have precedence over default browser settings.
+*/
+
+html, body {
+  background-color: white !important; /* Use !important only if necessary to override a strong user-agent/browser default */
+  min-height: 100vh; /* Ensure the background covers the whole viewport */
+}
+
+#root {
+  /* This is the container where your React app is rendered */
+  background-color: white;
+}
+
 .main_container {
   background-color: white;
   min-height: 100vh;

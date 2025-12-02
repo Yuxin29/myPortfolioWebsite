@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+//import { useEffect } from 'react'
 import {BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 
 import './App.css'
@@ -31,15 +31,18 @@ function MainPage() {
   );
 }
 
+// useEffect perform side effects in functional components, side effects are anything that interacts with the "outside word"
+// for explample fetching data(API calls), manuakkt changing DOM, setting up event listerns
+  // useEffect(() => {
+  //   document.documentElement.style.backgroundColor = 'white'; // html
+  //   document.body.style.backgroundColor = 'white';            // body
+  //   const root = document.getElementById('root');
+  //   if (root)
+  //     root.style.backgroundColor = 'white';           // React root div
+  // }, []);
+// however, this is not the best practice to overwrite React
+// so I did it in App.css
 function App() {
-  useEffect(() => {
-    document.documentElement.style.backgroundColor = 'white'; // html
-    document.body.style.backgroundColor = 'white';            // body
-    const root = document.getElementById('root');
-    if (root)
-      root.style.backgroundColor = 'white';           // React root div
-  }, []);
-
   return (
     <BrowserRouter>
       <Routes>
