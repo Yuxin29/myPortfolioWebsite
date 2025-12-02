@@ -20,12 +20,6 @@ h4 span{
   font-size: inherit;   /* Inherit the font size of the h4 */
 }
 
-/*normal txt paragraph*/
-p {
-  text-align: left;
-  color: #555555;
-}
-
 /*projects and contact  */
 .left-bottom-link {
   background-color: "#b5e4ffff";

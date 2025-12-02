@@ -12,21 +12,27 @@ function Cv() {
                 yuxin.1.wu@gmail.com | +358 466803054 | Helsinki, Finland
             </p>
             <p>
-                <a href="in/yuxin-w-ab719b198" target="_blank" rel="noreferrer">LinkedIn</a> |{" "}
+                <a href="https://www.linkedin.com/in/yuxin-w-ab719b198/" target="_blank" rel="noreferrer">LinkedIn</a> |{" "}
                 <a href="https://github.com/Yuxin29" target="_blank" rel="noreferrer">GitHub</a> |{" "}
                 <a href="https://www.hive.fi/about-hive/" target="_blank" rel="noreferrer"> Trained at Hive</a>
                 
             </p>
 
             <h2 style={{ textAlign: "left" }}>About</h2>
-            <p>
-                I’m an architect transitioning into software development. Through my studies at Hive Helsinki,
-                I’ve built a solid foundation in C, C++, and Python, focusing on algorithms, data structures,
-                and problem-solving. My design and project management background trained me to:
+            <p> My professional story is one of building—first with concrect and bricks, and now with code. </p> 
+
+            <p> After years ( 2014 - 2025) of journey an architect across Shanghai, USA, Rotterdam, and Helsinki, 
+                I realized my passion lay in the systematic thinking, precise execution and complex project management that underpin both architecture and software development. 
             </p>
-            <p>-Think systematically</p>
-            <p>-Collaborate across multidisciplinary teams</p>
-            <p>-Deliver precise, reliable, and efficient technical solutions under tight deadlines</p>
+
+            <p>
+            Shifting to digital building, I undertook the rigorous curriculum at Hive Helsinki, building a deep technical foundation in C, C++, and Python, 
+            with a focus on algorithms and low-level problem-solving. </p>
+
+            <p>
+            I now bring this unique blend of coordination Experience, system-level thinking and user-oriented attitude to contribute to software engineering. 
+            </p>
+        
             
             <h2 style={{ textAlign: "left" }}>About Hive</h2>
             <p>

@@ -12,17 +12,18 @@ function MainPage() {
   return (
     <div className="main_container">
       <div className="top_nav">
-        {/* Left groups projects and Contect */}
+
         <div className='top_left_nav'>
           <a href="#project" className="top_left_nav">Projects</a>
           <a href="#contact" className="top_left_nav">Contact</a>
         </div>
-        {/* Right item: Gallery page */}
+
         <Link to="/gallery" className='top_right_nav'>
           Gallery
         </Link>
+
       </div>
-      {/* Main page content */}
+
       <Cv/>
       <Project/>
       <Contact/>
