@@ -14,6 +14,14 @@ import CoinCollectorVideo from "./assets/CoinCollector.webm";
 // an array of projects
 const projects = [
     {
+    title: "Portfolio & CV Page (React, JavaScript)",
+    inshort: "Accessible Single Page Application (SPA)",
+    description: "Developed a responsive, modern single-page portfolio application using React and JavaScript. Contact messages managed via a local JSON mock-backend, demonstrating component-based architecture, state management, and the ability to process and render external data sources dynamically. Focused on modular design and professional presentation.",
+    media: libftImage, // Replace with the actual imported variable name (e.g., cvPageImage)
+    type: "image",
+    link: "https://www.yuxinwu.eu/" // Update this to your main portfolio repo
+    },
+    {
         title: "Webserver (C++)",
         inshort: "Webserver built from scratch",
         description: "WebServer is a lightweight HTTP server implemented in C++ that mimics the core behavior of real-world web servers. In a team of three, I focused on server infrastructure, configuration parsing, and full request–response cycle, including HTTP request parsing, routing logic, and response generation. Learned a lot about teamwork and Git workflows.",
