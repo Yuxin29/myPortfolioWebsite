@@ -3,6 +3,7 @@ import { useState } from 'react';
 
 import './Project.css'
 
+import reactImage from "./assets/0_EitUXT-pqbaQSCTt.gif";
 import libftImage from "./assets/libft.png";
 import pushswapVideo from "./assets/pushswap.webm";
 import minishellImage from "./assets/minishell.png";
@@ -17,7 +18,7 @@ const projects = [
     title: "Portfolio & CV Page (React, JavaScript)",
     inshort: "Accessible Single Page Application (SPA)",
     description: "Developed a responsive, modern single-page portfolio application using React and JavaScript. Contact messages managed via a local JSON mock-backend, demonstrating component-based architecture, state management, and the ability to process and render external data sources dynamically. Focused on modular design and professional presentation.",
-    media: libftImage, // Replace with the actual imported variable name (e.g., cvPageImage)
+    media: reactImage, // Replace with the actual imported variable name (e.g., cvPageImage)
     type: "image",
     link: "https://www.yuxinwu.eu/" // Update this to your main portfolio repo
     },
