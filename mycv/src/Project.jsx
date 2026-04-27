@@ -16,8 +16,8 @@ import CoinCollectorVideo from "./assets/CoinCollector.webm";
 // an array of projects
 const projects = [
     {
-        title: "Non-destructive Filleting Tool",
-        inshort: "Non-destructive FilletEdge extension for Rhino3d",
+        title: "Non-destructive Filleting Tool(C++)",
+        inshort: "FilletEdge extension for Rhino3d using Rhino SDK",
         description: "A C++ plugin for Rhino 3D that introduces a non-destructive approach to edge filleting, allowing designers to preserve editable base geometry while visualizing smooth blended edges in real time.",
         media: filletImage, // Replace with the actual imported variable name (e.g., cvPageImage)
         type: "image",
@@ -26,7 +26,7 @@ const projects = [
     {
     title: "Portfolio & CV Page (React, JavaScript)",
     inshort: "Accessible Single Page Application (SPA)",
-    description: "Developed a responsive, modern single-page portfolio application using React and JavaScript. Contact messages managed via a local JSON mock-backend, demonstrating component-based architecture, state management, and the ability to process and render external data sources dynamically. Focused on modular design and professional presentation.",
+    description: "An extendable full-stack portfolio website built to present my projects and background. Developed with React and Express, deployed on Vercel with automated CI/CD. This project introduced me to modern web development practices and continuous deployment in production environment",
     media: reactImage, // Replace with the actual imported variable name (e.g., cvPageImage)
     type: "image",
     link: "https://www.yuxinwu.eu/" // Update this to your main portfolio repo
