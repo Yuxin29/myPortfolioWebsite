@@ -29,7 +29,7 @@ function Cv() {
             Shifting to digital building, I undertook the rigorous curriculum at Hive Helsinki, building a deep technical foundation in C, C++, and Python, with a focus on algorithms and low-level problem-solving. </p>
             
             <p>
-                I am now diving into web development with Javascript and React.
+            Today, my main interest lies in building robust software using C++, particularly in areas where geometry, performance, and systems intersect. My work with Rhino 3D plugins reflects this direction, combining my background in design with software development to create tools that improve real-world workflows.
             </p>
 
             <p>
@@ -57,7 +57,7 @@ function Cv() {
 
             <h2 style={{ textAlign: "left" }}>Work Experience</h2>
             <h4>Software Developer <span>– LBP Development Oy, Turku (4.2026 – now: full-time)</span> </h4>
-            <h4>Project Architect <span>– Architecture Office Eero Korhonen, Helsinki (1.2023 – 10. 24: Fulltime; 10.2024 – 2. 26: 60%; 3.2026 – now: 20%; )</span> </h4>
+            <h4>Project Architect <span>– Architecture Office Eero Korhonen, Helsinki (1.2023 – 10. 24: Fulltime; 10.2024 – 2. 26: 3 days/week; 3.2026 – now: 1 day/week; )</span> </h4>
             <h4>Architect <span>– Architecture Office Pet Michael, Helsinki (1.2022 – 12.2022)</span> </h4>
             <h4>Assistant Architect <span>– Harris-Kjisik Architects, Helsinki (1.2021 – 1.2022)</span> </h4>
             <h4>Assistant Architect <span>– Powerhouse Company, Helsinki (9.2020 – 1.2021)</span> </h4>

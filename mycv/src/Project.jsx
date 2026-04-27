@@ -16,9 +16,9 @@ import CoinCollectorVideo from "./assets/CoinCollector.webm";
 // an array of projects
 const projects = [
     {
-        title: "Non-destructive Fillet Tool",
-        inshort: "Non-destructive Filleting Edge extension for Rhino3d",
-        description: "Developed a responsive, modern single-page portfolio application using React and JavaScript. Contact messages managed via a local JSON mock-backend, demonstrating component-based architecture, state management, and the ability to process and render external data sources dynamically. Focused on modular design and professional presentation.",
+        title: "Non-destructive Filleting Tool",
+        inshort: "Non-destructive FilletEdge extension for Rhino3d",
+        description: "A C++ plugin for Rhino 3D that introduces a non-destructive approach to edge filleting, allowing designers to preserve editable base geometry while visualizing smooth blended edges in real time.",
         media: filletImage, // Replace with the actual imported variable name (e.g., cvPageImage)
         type: "image",
         link: "https://github.com/Yuxin29/NonDestructiveFilletEdge" // Update this to your main portfolio repo
