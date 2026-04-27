@@ -56,10 +56,11 @@ function Cv() {
             <h4><b>Iowa State University, USA</b> <span> Exchange study 2018</span></h4>
 
             <h2 style={{ textAlign: "left" }}>Work Experience</h2>
-            <h4>Project Architect <span>– Architecture Office Eero Korhonen, Helsinki (1.2023 – now)</span> </h4>
+            <h4>Software Developer <span>– LBP Development Oy, Turku (4.2026 – now: full-time)</span> </h4>
+            <h4>Project Architect <span>– Architecture Office Eero Korhonen, Helsinki (1.2023 – 10. 24: Fulltime; 10.2024 – 2. 26: 60%; 3.2026 – now: 20%; )</span> </h4>
             <h4>Architect <span>– Architecture Office Pet Michael, Helsinki (1.2022 – 12.2022)</span> </h4>
-            <h4>Assistant Architect <span>– Harris-Kjisik Architects, Helsinki (1.2023 – now)</span> </h4>
-            <h4>Assistant Architect <span>– Powerhouse Company, Helsinki (1.2023 – now)</span> </h4>
+            <h4>Assistant Architect <span>– Harris-Kjisik Architects, Helsinki (1.2021 – 1.2022)</span> </h4>
+            <h4>Assistant Architect <span>– Powerhouse Company, Helsinki (9.2020 – 1.2021)</span> </h4>
 
         </div>
     );
