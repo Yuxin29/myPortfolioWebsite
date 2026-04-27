@@ -57,10 +57,10 @@ function Cv() {
 
             <h2 style={{ textAlign: "left" }}>Work Experience</h2>
             <h4>Software Developer <span>– LBP Development Oy, Turku (4.2026 – now: full-time)</span> </h4>
-            <h4>Project Architect <span>– Architecture Office Eero Korhonen, Helsinki (2023 – 24: Fulltime; 2025: 3 days/week; 2026 – now: 1 day/week; )</span> </h4>
-            <h4>Architect <span>– Architecture Office Pet Michael, Helsinki (1.2022 – 12.2022)</span> </h4>
-            <h4>Assistant Architect <span>– Harris-Kjisik Architects, Helsinki (1.2021 – 1.2022)</span> </h4>
-            <h4>Assistant Architect <span>– Powerhouse Company, Helsinki (9.2020 – 1.2021)</span> </h4>
+            <h4>Project Architect <span>– Architecture Office Eero Korhonen, Helsinki (2023 – 24: full-time; 2025: 3 days/week; 2026 – now: 1 day/week)</span> </h4>
+            <h4>Architect <span>– Architecture Office Pet Michael, Espoo (1.2022 – 12.2022: full-time)</span> </h4>
+            <h4>Assistant Architect <span>– Harris-Kjisik Architects, Helsinki (1.2021 – 1.2022: full-time)</span> </h4>
+            <h4>Assistant Architect <span>– Powerhouse Company, Rotterdam (9.2020 – 1.2021: full-time)</span> </h4>
 
         </div>
     );
