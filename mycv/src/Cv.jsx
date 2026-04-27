@@ -31,10 +31,6 @@ function Cv() {
             <p>
             Right now, my main interest lies in building robust software using C++, particularly in areas where geometry, performance, and systems intersect. My work with Rhino 3D plugins reflects this direction, combining my background in design with software development to create tools that improve real-world design workflows.
             </p>
-
-            <p>
-            I now excited to this unique blend of coordination experience and user-oriented attitude to contribute to software engineering. 
-            </p>
         
             
             <h2 style={{ textAlign: "left" }}>About Hive</h2>
