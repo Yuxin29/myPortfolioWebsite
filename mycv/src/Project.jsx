@@ -3,6 +3,7 @@ import { useState } from 'react';
 
 import './Project.css'
 
+import filletImage from "./assets/filletedge_maxradius.gif";
 import reactImage from "./assets/0_EitUXT-pqbaQSCTt.gif";
 import libftImage from "./assets/libft.png";
 import pushswapVideo from "./assets/pushswap.webm";
@@ -14,6 +15,14 @@ import CoinCollectorVideo from "./assets/CoinCollector.webm";
 
 // an array of projects
 const projects = [
+    {
+        title: "Non-destructive Fillet Tool",
+        inshort: "Non-destructive Filleting Edge extension for Rhino3d",
+        description: "Developed a responsive, modern single-page portfolio application using React and JavaScript. Contact messages managed via a local JSON mock-backend, demonstrating component-based architecture, state management, and the ability to process and render external data sources dynamically. Focused on modular design and professional presentation.",
+        media: filletImage, // Replace with the actual imported variable name (e.g., cvPageImage)
+        type: "image",
+        link: "https://github.com/Yuxin29/NonDestructiveFilletEdge" // Update this to your main portfolio repo
+        },
     {
     title: "Portfolio & CV Page (React, JavaScript)",
     inshort: "Accessible Single Page Application (SPA)",

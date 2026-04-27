@@ -50,7 +50,7 @@ function Cv() {
             <h4><b>Communications</b> <span>Chinese(native), English(Excellent), Finnish(conversational) </span> </h4>
             
             <h2 style={{ textAlign: "left" }}>Education</h2>
-            <h4><b>Hive Helsinki, Finland</b> <span> Software Engineering 04.2024 – now</span></h4>
+            <h4><b>Hive Helsinki, Finland</b> <span> Software Engineering 04.2025 – now</span></h4>
             <h4><b>Aalto University, Finland</b> <span> Master of Science in Architecture  2019–2021</span></h4>
             <h4><b>Southeast University, China</b> <span> Bachelor of Science in Architecture  2014–2019</span></h4>
             <h4><b>Iowa State University, USA</b> <span> Exchange study 2018</span></h4>
