@@ -4,7 +4,7 @@ import { useState } from 'react';
 import './Project.css'
 
 // import filletImage from "./assets/filletedge_maxradius.gif";
-import filletImage from "./assets/0522_NDFilletEdge.mp4"; 
+import filletImage from "./assets/0522_NDFilletEdge.mov"; 
 import reactImage from "./assets/0_EitUXT-pqbaQSCTt.gif";
 import libftImage from "./assets/libft.png";
 import pushswapVideo from "./assets/pushswap.webm";
