@@ -3,7 +3,8 @@ import { useState } from 'react';
 
 import './Project.css'
 
-import filletImage from "./assets/filletedge_maxradius.gif";
+// import filletImage from "./assets/filletedge_maxradius.gif";
+import filletImage from "./assets/0522_NDFilletEdge.mp4"; 
 import reactImage from "./assets/0_EitUXT-pqbaQSCTt.gif";
 import libftImage from "./assets/libft.png";
 import pushswapVideo from "./assets/pushswap.webm";
@@ -20,7 +21,7 @@ const projects = [
         inshort: "FilletEdge extension for Rhino3d using Rhino SDK",
         description: "A C++ plugin for Rhino 3D that introduces a non-destructive approach to edge filleting, allowing designers to preserve editable base geometry while visualizing smooth blended edges in real time.",
         media: filletImage, // Replace with the actual imported variable name (e.g., cvPageImage)
-        type: "image",
+        type: "video",
         link: "https://github.com/Yuxin29/NonDestructiveFilletEdge" // Update this to your main portfolio repo
         },
     {
